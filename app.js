@@ -61,7 +61,7 @@ app.patch("/api/v1/tours/:id", (req,res)=>{
 
   console.log(id)
   console.log(data)
-
+  console.log("This is not a bug")
 })
 
 app.listen(port, () => {
